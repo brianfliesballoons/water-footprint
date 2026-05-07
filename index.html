@@ -312,372 +312,13 @@ sup a{color:var(--water)}
 </div>
 </section>
 
-<!-- ═════════════════════════ METHODOLOGY ═════════════════════════ -->
-<section class="section" style="padding-bottom:40px;">
-<div class="wrap">
-  <div class="method-box reveal">
-    <h4>🔬 Methodology & Intentional Bias Disclosure</h4>
-    <p>
-      This analysis is designed to test a hypothesis: <strong>even under the most AI-unfavorable assumptions possible, 
-      dietary water savings still dominate.</strong> To ensure intellectual honesty, we explicitly disclose our estimation strategy:
-    </p>
-    <p>
-      <span class="bias-tag up">AI INFLATED ⬆️</span> 
-      For AI/data center water, we use the <strong>highest published estimates</strong> at every level — 
-      500 ml per prompt <sup><a href="#ref10">[10]</a></sup> (vs Google's disclosed 0.26 ml <sup><a href="#ref12">[12]</a></sup> or OpenAI's claimed 0.3 ml <sup><a href="#ref13">[13]</a></sup>), 
-      maximum projected growth rates <sup><a href="#ref15">[15]</a><a href="#ref16">[16]</a></sup>, and full scope 1+2+3 accounting (on-site cooling, electricity generation water, and chip manufacturing).
-    </p>
-    <p>
-      <span class="bias-tag down">VEGAN CONSERVATIVE ⬇️</span> 
-      For vegan diet savings, we use <strong>conservative estimates</strong>. Some studies report up to 55% water reduction <sup><a href="#ref5">[5]</a></sup>; 
-      others show as low as 7% for a Mediterranean comparison <sup><a href="#ref9">[9]</a></sup>.
-      We use ~45% reduction as our baseline — the lower end of most U.S.-focused studies <sup><a href="#ref6">[6]</a><a href="#ref7">[7]</a><a href="#ref8">[8]</a></sup>.
-      The Loma Linda University study found vegetarians save 54% <sup><a href="#ref5">[5]</a></sup>; we round down further for vegans to account for water-intensive plant crops.
-    </p>
-    <p>
-      <strong>The result:</strong> AI numbers are inflated by roughly 10–100× above median estimates, while vegan savings are 
-      held at the conservative floor. Despite this, the dietary impact still dominates by 1–2 orders of magnitude.
-    </p>
-  </div>
-</div>
-</section>
-
-<!-- ═════════════════════════ PER-CAPITA ═════════════════════════ -->
-<section class="section" id="percapita" style="padding-top:40px;">
-<div class="wrap">
-  <div class="sec-tag reveal">01 — Per-Capita Daily Water Footprint</div>
-  <h2 class="sec-title reveal">What your daily choices<br>actually cost in water</h2>
-  <p class="sec-body reveal">
-    Food production dominates personal water use — dwarfing household water, AI, and everything else combined. 
-    The average American's diet requires over 1,000 gallons/day for food alone. <sup><a href="#ref1">[1]</a><a href="#ref2">[2]</a><a href="#ref3">[3]</a></sup>
-  </p>
-
-  <div class="compare-grid reveal">
-    <div class="card omni">
-      <div class="card-icon">🥩</div>
-      <div class="card-label">Standard American Omnivore</div>
-      <div class="card-num">1,100</div>
-      <div class="card-unit">gallons / day for food</div>
-      <div class="card-detail">
-        206 lbs meat/yr · 616 lbs dairy/yr · 248 eggs/yr <sup><a href="#ref1">[1]</a></sup>. 
-        Beef needs 1,800 gal/lb <sup><a href="#ref2">[2]</a><a href="#ref3">[3]</a><a href="#ref4">[4]</a></sup>. 
-        98% of livestock water grows feed <sup><a href="#ref2">[2]</a></sup>.
-      </div>
-    </div>
-    <div class="card vegan">
-      <div class="card-icon">🌱</div>
-      <div class="card-label">Whole-Food Vegan</div>
-      <div class="card-num">~500</div>
-      <div class="card-unit">gallons / day for food (conservative ⬇️)</div>
-      <div class="card-detail">
-        Studies range from 45–55% less water <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a><a href="#ref7">[7]</a></sup>. 
-        We use ~45% (low end). Vegetables ~40 gal/lb, grains ~120 gal/lb, tofu ~302 gal/lb <sup><a href="#ref2">[2]</a><a href="#ref8">[8]</a></sup>.
-      </div>
-    </div>
-    <div class="card ai">
-      <div class="card-icon">🤖</div>
-      <div class="card-label">Heavy Daily AI Use ⬆️</div>
-      <div class="card-num">~7–14</div>
-      <div class="card-unit">gallons / day (50 prompts, inflated ⬆️)</div>
-      <div class="card-detail">
-        Using 500 ml/prompt — the highest published <sup><a href="#ref10">[10]</a></sup>. Google claims 0.26 ml <sup><a href="#ref12">[12]</a></sup>; 
-        OpenAI says 0.3 ml <sup><a href="#ref13">[13]</a></sup>; independent analysis ~5 ml <sup><a href="#ref14">[14]</a></sup>. 
-        We round UP to 14 gal/day.
-      </div>
-    </div>
-  </div>
-
-  <div class="bar-section reveal">
-    <div class="bar-title">Daily Per-Person Water Use (gallons)</div>
-    <div class="bar-row">
-      <div class="bar-label">Omnivore Diet <sup><a href="#ref1">[1]</a><a href="#ref2">[2]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill omni" style="width:100%">1,100 gal</div></div>
-      <div class="bar-val">1,100 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Vegan Diet ⬇️ <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill vegan" style="width:45%">~500 gal</div></div>
-      <div class="bar-val">~500 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Household Use</div>
-      <div class="bar-track"><div class="bar-fill" style="width:9%;background:linear-gradient(90deg,#1e6ab0,var(--water));min-width:60px">100 gal</div></div>
-      <div class="bar-val">100 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">AI 50 prompts ⬆️ <sup><a href="#ref10">[10]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill ai" style="width:1.3%;min-width:60px">~14 gal</div></div>
-      <div class="bar-val" style="color:var(--ai)">~14 gal ⬆️</div>
-    </div>
-  </div>
-
-  <div class="droplet-section reveal">
-    <div class="sec-tag">Each Droplet = 100 Gallons Per Day</div>
-    <h2 class="sec-title" style="margin-bottom:8px;">See the difference at a glance</h2>
-    <p style="color:var(--text3);font-size:15px;margin-bottom:4px;">Filled = water consumed. Transparent = water saved.</p>
-    <div class="droplet-row">
-      <div class="droplet-col">
-        <div class="droplet-label ol">Omnivore — 1,100 gal/day</div>
-        <div class="droplet-grid" id="omniDrops"></div>
-        <div class="droplet-caption">11 of 11 droplets filled</div>
-      </div>
-      <div class="droplet-col">
-        <div class="droplet-label vl">Vegan — ~500 gal/day</div>
-        <div class="droplet-grid" id="veganDrops"></div>
-        <div class="droplet-caption">5 of 11 filled — <strong style="color:var(--vegan)">6 saved!</strong></div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-
-<!-- ═════════════════════════ AI GROWTH ═════════════════════════ -->
-<section class="section" id="aigrowth">
-<div class="wrap">
-  <div class="sec-tag reveal">02 — AI Water Growth: The Scariest Projections</div>
-  <h2 class="sec-title reveal">Giving AI every benefit of the doubt</h2>
-  <p class="sec-body reveal">
-    AI water usage is growing fast. Below are the most alarming projections from credible institutions — 
-    each linked to its source. We use the highest figure at every tier.
-  </p>
-
-  <div class="reveal" style="margin-bottom:60px;">
-    <div class="tl-row">
-      <div class="tl-year">2021</div>
-      <div class="tl-content">
-        <div class="tl-num">163.7 billion gallons — all U.S. data centers</div>
-        <div class="tl-desc">Source: <a href="https://www.eesi.org/articles/view/data-centers-and-water-consumption" target="_blank">EESI</a> <sup><a href="#ref17">[17]</a></sup>. Pre-ChatGPT. Includes all cloud, streaming, email — not just AI.</div>
-        <div class="tl-bar"><div class="tl-bar-fill" style="width:9.6%"></div></div>
-      </div>
-    </div>
-    <div class="tl-row">
-      <div class="tl-year">2023</div>
-      <div class="tl-content">
-        <div class="tl-num">211B gal indirect + 17B gal direct AI</div>
-        <div class="tl-desc">Federal report via <a href="https://www.eesi.org/articles/view/data-centers-and-water-consumption" target="_blank">EESI</a> <sup><a href="#ref17">[17]</a></sup>; direct AI estimate via <a href="https://www.issa.com/industry-news/ai-data-center-water-consumption-is-creating-an-unprecedented-crisis-in-the-united-states/" target="_blank">ISSA/Waterless Co.</a> <sup><a href="#ref18">[18]</a></sup></div>
-        <div class="tl-bar"><div class="tl-bar-fill" style="width:13.4%"></div></div>
-      </div>
-    </div>
-    <div class="tl-row">
-      <div class="tl-year">2028</div>
-      <div class="tl-content">
-        <div class="tl-num">720 billion gallons ⬆️ — AI cooling alone (projected)</div>
-        <div class="tl-desc">Source: <a href="https://www.foodandwaterwatch.org/2025/04/09/artificial-intelligence-water-climate/" target="_blank">Food & Water Watch</a> <sup><a href="#ref15">[15]</a></sup>. ISSA projects 68B direct-only. <sup><a href="#ref18">[18]</a></sup> We use the higher number.</div>
-        <div class="tl-bar"><div class="tl-bar-fill" style="width:42.4%"></div></div>
-      </div>
-    </div>
-    <div class="tl-row">
-      <div class="tl-year">2027–30</div>
-      <div class="tl-content">
-        <div class="tl-num">~1.7 trillion gallons ⬆️⬆️ — worst-case projection</div>
-        <div class="tl-desc">Source: <a href="https://www.fastcompany.com/91454609/ais-future-runs-on-water" target="_blank">Fast Company</a> <sup><a href="#ref16">[16]</a></sup>. Also: <a href="https://www.brookings.edu/articles/ai-data-centers-and-water/" target="_blank">Brookings</a> projects 870% cooling increase <sup><a href="#ref19">[19]</a></sup>; <a href="https://www.msci.com/research-and-insights/blog-post/when-ai-meets-water-scarcity-data-centers-in-a-thirsty-world" target="_blank">IEA via MSCI</a> estimates 1.2T liters globally by 2030 <sup><a href="#ref20">[20]</a></sup>.</div>
-        <div class="tl-bar"><div class="tl-bar-fill" style="width:100%"></div></div>
-      </div>
-    </div>
-    <div class="tl-row" style="border-bottom:none;">
-      <div class="tl-year" style="color:var(--red);">2050</div>
-      <div class="tl-content">
-        <div class="tl-num" style="color:var(--red);">~3.5 trillion gallons ⬆️⬆️⬆️ — unmitigated nightmare</div>
-        <div class="tl-desc">Peer-reviewed: <a href="https://www.sciencedirect.com/science/article/pii/S0959652625018785" target="_blank">ScienceDirect scenario forecast</a> <sup><a href="#ref21">[21]</a></sup> projects 7× increase by mid-century without mitigation. We apply this to the U.S. share generously.</div>
-        <div class="tl-bar"><div class="tl-bar-fill" style="width:100%;background:linear-gradient(90deg,var(--ai-dark),var(--red))"></div></div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-
-<!-- ═════════════════════════ NATIONAL SHOWDOWN ═════════════════════════ -->
-<section class="section" id="national">
-<div class="wrap">
-  <div class="sec-tag reveal">03 — The National Showdown</div>
-  <h2 class="sec-title reveal">335 million Americans going vegan<br>vs. the entire AI industry</h2>
-  <p class="sec-body reveal">
-    Apples-to-apples comparison using the MOST generous AI projections and the MOST conservative vegan savings. <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a><a href="#ref15">[15]</a><a href="#ref16">[16]</a></sup>
-  </p>
-
-  <div class="national-grid reveal">
-    <div class="national-card left">
-      <div class="nc-tag">Water Saved — National Vegan Shift ⬇️</div>
-      <div class="nc-big">73.4 T</div>
-      <div class="nc-unit">trillion gallons / year</div>
-      <div class="nc-detail">
-        335M × 600 gal/day savings × 365 = <strong style="color:var(--vegan)">73.4 trillion gallons</strong>/year. 
-        Based on conservative 45% reduction <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a><a href="#ref7">[7]</a></sup>. 
-        Higher estimates (55%) would yield ~90T. <sup><a href="#ref8">[8]</a></sup>
-      </div>
-    </div>
-    <div class="vs-badge">vs</div>
-    <div class="national-card right">
-      <div class="nc-tag">ALL U.S. AI + Data Centers (2030 Worst Case ⬆️⬆️)</div>
-      <div class="nc-big">1.7 T</div>
-      <div class="nc-unit">trillion gallons / year</div>
-      <div class="nc-detail">
-        Most aggressive projection. <sup><a href="#ref15">[15]</a><a href="#ref16">[16]</a></sup> 
-        Current actual is ~0.16T <sup><a href="#ref17">[17]</a></sup>. 
-        This figure is <strong style="color:var(--ai);">10× current levels</strong>.
-      </div>
-    </div>
-  </div>
-
-  <div class="callout reveal">
-    <div class="callout-num">43×</div>
-    <div class="callout-txt">
-      Even using the <strong>most inflated worst-case AI projections</strong> and <strong>most conservative vegan savings</strong>, 
-      a national plant-based shift saves <strong>43 times</strong> more water.
-    </div>
-    <div class="callout-sub">
-      73.4T gal (conservative vegan savings) ÷ 1.7T gal (worst-case AI 2030) = 43×
-    </div>
-  </div>
-
-  <div class="bar-section reveal">
-    <div class="bar-title">National Annual Water — Trillions of Gallons</div>
-    <div class="bar-row">
-      <div class="bar-label">U.S. Omnivore Food <sup><a href="#ref1">[1]</a><a href="#ref2">[2]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill omni" style="width:100%">134.5T gal</div></div>
-      <div class="bar-val">134.5 T gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">U.S. Vegan Food ⬇️ <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill vegan" style="width:45.5%">61.2T gal</div></div>
-      <div class="bar-val">61.2 T gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">WATER SAVED</div>
-      <div class="bar-track"><div class="bar-fill" style="width:54.6%;background:linear-gradient(90deg,var(--vegan-dark),var(--gold))">73.4T saved</div></div>
-      <div class="bar-val" style="color:var(--gold);font-weight:700">73.4 T gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">AI (current 2023) <sup><a href="#ref17">[17]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill ai" style="width:0.17%;min-width:60px">0.23T</div></div>
-      <div class="bar-val">0.23 T gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">AI (2028 ⬆️) <sup><a href="#ref15">[15]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill ai" style="width:0.5%;min-width:60px">0.72T</div></div>
-      <div class="bar-val" style="color:var(--ai)">0.72 T ⬆️</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">AI (2030 worst ⬆️⬆️) <sup><a href="#ref16">[16]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill ai" style="width:1.26%;min-width:70px">1.7T</div></div>
-      <div class="bar-val" style="color:var(--ai);font-weight:700">1.7 T ⬆️⬆️</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label" style="color:var(--red)">AI (2050 ⬆️⬆️⬆️) <sup><a href="#ref21">[21]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill" style="width:2.6%;min-width:70px;background:linear-gradient(90deg,var(--ai-dark),var(--red))">3.5T</div></div>
-      <div class="bar-val" style="color:var(--red);font-weight:700">3.5 T ⬆️⬆️⬆️</div>
-    </div>
-  </div>
-
-  <!-- Data table with ratios -->
-  <div class="data-table-wrap reveal">
-    <table class="data-table">
-      <thead>
-        <tr><th>Metric</th><th>🥩 Omnivore</th><th>🌱 Vegan ⬇️</th><th>🤖 AI ⬆️</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="mn">Daily per person (food)</td>
-          <td class="ov">~1,100 gal <sup><a href="#ref1">[1]</a></sup></td>
-          <td class="vv">~500 gal <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a></sup></td>
-          <td class="av">~7–14 gal <sup><a href="#ref10">[10]</a></sup></td>
-        </tr>
-        <tr>
-          <td class="mn">Annual per person</td>
-          <td class="ov">~401,500 gal</td>
-          <td class="vv">~182,500 gal</td>
-          <td class="av">~2,555–5,110 gal ⬆️</td>
-        </tr>
-        <tr>
-          <td class="mn">Per-person savings vs omnivore</td>
-          <td class="ov">Baseline</td>
-          <td class="vv">~219,000 gal saved</td>
-          <td class="av">N/A</td>
-        </tr>
-        <tr>
-          <td class="mn">National annual total (335M)</td>
-          <td class="ov">134.5T gal</td>
-          <td class="vv">61.2T gal</td>
-          <td class="av">1.7T gal ⬆️⬆️ <sup><a href="#ref16">[16]</a></sup></td>
-        </tr>
-        <tr>
-          <td class="mn">National savings vs omnivore</td>
-          <td class="ov">—</td>
-          <td class="vv" style="font-size:17px">73.4 T gal</td>
-          <td class="av">—</td>
-        </tr>
-        <tr>
-          <td class="mn">Ratio: vegan savings ÷ AI total</td>
-          <td colspan="3" style="text-align:center;font-weight:700;font-size:15px">
-            <span style="color:var(--gold)">Current: 319× · 2028: 102× · 2030 worst: 43× · 2050 nightmare: 21×</span>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-</section>
-
-<!-- ═════════════════════════ FOOD BREAKDOWN ═════════════════════════ -->
-<section class="section" id="foods">
-<div class="wrap">
-  <div class="sec-tag reveal">04 — Why Meat Is So Water-Intensive</div>
-  <h2 class="sec-title reveal">Water per pound of food</h2>
-  <p class="sec-body reveal">
-    98% of livestock water goes to growing feed. <sup><a href="#ref2">[2]</a></sup> Per gram of protein, beef needs 6× more water than pulses. <sup><a href="#ref4">[4]</a></sup>
-  </p>
-  <div class="bar-section reveal">
-    <div class="bar-row">
-      <div class="bar-label">Beef <sup><a href="#ref2">[2]</a><a href="#ref3">[3]</a><a href="#ref4">[4]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill omni" style="width:100%">1,800 gal/lb</div></div>
-      <div class="bar-val" style="color:var(--omni)">1,800 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Pork <sup><a href="#ref8">[8]</a><a href="#ref4">[4]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill omni" style="width:32%">578 gal/lb</div></div>
-      <div class="bar-val" style="color:var(--omni)">578 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Chicken <sup><a href="#ref8">[8]</a><a href="#ref4">[4]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill omni" style="width:26%">468 gal/lb</div></div>
-      <div class="bar-val" style="color:var(--omni)">468 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Tofu <sup><a href="#ref2">[2]</a><a href="#ref8">[8]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill vegan" style="width:16.8%">302 gal/lb</div></div>
-      <div class="bar-val" style="color:var(--vegan)">302 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Lentils <sup><a href="#ref4">[4]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill vegan" style="width:10%">~180 gal/lb</div></div>
-      <div class="bar-val" style="color:var(--vegan)">~180 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Grains <sup><a href="#ref4">[4]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill vegan" style="width:6.7%;min-width:70px">~120 gal/lb</div></div>
-      <div class="bar-val" style="color:var(--vegan)">~120 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label">Vegetables <sup><a href="#ref8">[8]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill vegan" style="width:2.2%;min-width:60px">~40 gal/lb</div></div>
-      <div class="bar-val" style="color:var(--vegan)">~40 gal</div>
-    </div>
-    <div class="bar-row">
-      <div class="bar-label" style="color:var(--ai)">1 AI prompt ⬆️ <sup><a href="#ref10">[10]</a></sup></div>
-      <div class="bar-track"><div class="bar-fill ai" style="width:0.8%;min-width:70px">~0.14 gal</div></div>
-      <div class="bar-val" style="color:var(--ai)">~0.14 gal</div>
-    </div>
-  </div>
-</div>
-</section>
-
 <!-- ═════════════════════════ CALCULATOR ═════════════════════════ -->
 <section class="section" id="calculator">
 <div class="wrap">
-  <div class="sec-tag reveal">05 — Calculate Your Own Footprint</div>
+  <div class="sec-tag reveal">01 — Calculate Your Own Footprint</div>
   <h2 class="sec-title reveal">How much water does<br><em style="font-style:normal;background:linear-gradient(135deg,var(--water),var(--water-light));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">your</em> diet actually use?</h2>
   <p class="sec-body reveal">
-    206 pounds of meat per year sounds abstract. But how many burgers is that really? 
+    206 pounds of meat per year sounds abstract. But how many burgers is that really?
     Slide the bars below to match your actual habits — the calculator does the rest.
   </p>
 
@@ -688,7 +329,7 @@ sup a{color:var(--water)}
     </div>
     <div class="calc-body">
       <p class="calc-intro">
-        Answer honestly — no judgment. The average American numbers are pre-filled for reference. 
+        Answer honestly — no judgment. The average American numbers are pre-filled for reference.
         Adjust to match <strong>your</strong> typical month, then see your personalized results.
       </p>
 
@@ -848,13 +489,372 @@ sup a{color:var(--water)}
         </div>
 
         <p style="font-size:12px;color:var(--text3);margin-top:20px;text-align:center;line-height:1.6">
-          Food water calculated using Water Footprint Network data <sup><a href="#ref4">[4]</a></sup>: 
-          beef ~450 gal/serving, chicken ~117 gal/serving, pork ~145 gal/serving, 
-          dairy ~65 gal/serving, eggs ~53 gal each. 
+          Food water calculated using Water Footprint Network data <sup><a href="#ref4">[4]</a></sup>:
+          beef ~450 gal/serving, chicken ~117 gal/serving, pork ~145 gal/serving,
+          dairy ~65 gal/serving, eggs ~53 gal each.
           Vegan baseline uses ~200 gal/day for plant foods. <sup><a href="#ref6">[6]</a><a href="#ref7">[7]</a></sup>
           AI uses inflated 500 ml (~0.13 gal) per prompt. <sup><a href="#ref10">[10]</a></sup>
         </p>
       </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ═════════════════════════ METHODOLOGY ═════════════════════════ -->
+<section class="section" style="padding-bottom:40px;">
+<div class="wrap">
+  <div class="method-box reveal">
+    <h4>🔬 Methodology & Intentional Bias Disclosure</h4>
+    <p>
+      This analysis is designed to test a hypothesis: <strong>even under the most AI-unfavorable assumptions possible, 
+      dietary water savings still dominate.</strong> To ensure intellectual honesty, we explicitly disclose our estimation strategy:
+    </p>
+    <p>
+      <span class="bias-tag up">AI INFLATED ⬆️</span> 
+      For AI/data center water, we use the <strong>highest published estimates</strong> at every level — 
+      500 ml per prompt <sup><a href="#ref10">[10]</a></sup> (vs Google's disclosed 0.26 ml <sup><a href="#ref12">[12]</a></sup> or OpenAI's claimed 0.3 ml <sup><a href="#ref13">[13]</a></sup>), 
+      maximum projected growth rates <sup><a href="#ref15">[15]</a><a href="#ref16">[16]</a></sup>, and full scope 1+2+3 accounting (on-site cooling, electricity generation water, and chip manufacturing).
+    </p>
+    <p>
+      <span class="bias-tag down">VEGAN CONSERVATIVE ⬇️</span> 
+      For vegan diet savings, we use <strong>conservative estimates</strong>. Some studies report up to 55% water reduction <sup><a href="#ref5">[5]</a></sup>; 
+      others show as low as 7% for a Mediterranean comparison <sup><a href="#ref9">[9]</a></sup>.
+      We use ~45% reduction as our baseline — the lower end of most U.S.-focused studies <sup><a href="#ref6">[6]</a><a href="#ref7">[7]</a><a href="#ref8">[8]</a></sup>.
+      The Loma Linda University study found vegetarians save 54% <sup><a href="#ref5">[5]</a></sup>; we round down further for vegans to account for water-intensive plant crops.
+    </p>
+    <p>
+      <strong>The result:</strong> AI numbers are inflated by roughly 10–100× above median estimates, while vegan savings are 
+      held at the conservative floor. Despite this, the dietary impact still dominates by 1–2 orders of magnitude.
+    </p>
+  </div>
+</div>
+</section>
+
+<!-- ═════════════════════════ PER-CAPITA ═════════════════════════ -->
+<section class="section" id="percapita" style="padding-top:40px;">
+<div class="wrap">
+  <div class="sec-tag reveal">02 — Per-Capita Daily Water Footprint</div>
+  <h2 class="sec-title reveal">What your daily choices<br>actually cost in water</h2>
+  <p class="sec-body reveal">
+    Food production dominates personal water use — dwarfing household water, AI, and everything else combined. 
+    The average American's diet requires over 1,000 gallons/day for food alone. <sup><a href="#ref1">[1]</a><a href="#ref2">[2]</a><a href="#ref3">[3]</a></sup>
+  </p>
+
+  <div class="compare-grid reveal">
+    <div class="card omni">
+      <div class="card-icon">🥩</div>
+      <div class="card-label">Standard American Omnivore</div>
+      <div class="card-num">1,100</div>
+      <div class="card-unit">gallons / day for food</div>
+      <div class="card-detail">
+        206 lbs meat/yr · 616 lbs dairy/yr · 248 eggs/yr <sup><a href="#ref1">[1]</a></sup>. 
+        Beef needs 1,800 gal/lb <sup><a href="#ref2">[2]</a><a href="#ref3">[3]</a><a href="#ref4">[4]</a></sup>. 
+        98% of livestock water grows feed <sup><a href="#ref2">[2]</a></sup>.
+      </div>
+    </div>
+    <div class="card vegan">
+      <div class="card-icon">🌱</div>
+      <div class="card-label">Whole-Food Vegan</div>
+      <div class="card-num">~500</div>
+      <div class="card-unit">gallons / day for food (conservative ⬇️)</div>
+      <div class="card-detail">
+        Studies range from 45–55% less water <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a><a href="#ref7">[7]</a></sup>. 
+        We use ~45% (low end). Vegetables ~40 gal/lb, grains ~120 gal/lb, tofu ~302 gal/lb <sup><a href="#ref2">[2]</a><a href="#ref8">[8]</a></sup>.
+      </div>
+    </div>
+    <div class="card ai">
+      <div class="card-icon">🤖</div>
+      <div class="card-label">Heavy Daily AI Use ⬆️</div>
+      <div class="card-num">~7–14</div>
+      <div class="card-unit">gallons / day (50 prompts, inflated ⬆️)</div>
+      <div class="card-detail">
+        Using 500 ml/prompt — the highest published <sup><a href="#ref10">[10]</a></sup>. Google claims 0.26 ml <sup><a href="#ref12">[12]</a></sup>; 
+        OpenAI says 0.3 ml <sup><a href="#ref13">[13]</a></sup>; independent analysis ~5 ml <sup><a href="#ref14">[14]</a></sup>. 
+        We round UP to 14 gal/day.
+      </div>
+    </div>
+  </div>
+
+  <div class="bar-section reveal">
+    <div class="bar-title">Daily Per-Person Water Use (gallons)</div>
+    <div class="bar-row">
+      <div class="bar-label">Omnivore Diet <sup><a href="#ref1">[1]</a><a href="#ref2">[2]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill omni" style="width:100%">1,100 gal</div></div>
+      <div class="bar-val">1,100 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Vegan Diet ⬇️ <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill vegan" style="width:45%">~500 gal</div></div>
+      <div class="bar-val">~500 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Household Use</div>
+      <div class="bar-track"><div class="bar-fill" style="width:9%;background:linear-gradient(90deg,#1e6ab0,var(--water));min-width:60px">100 gal</div></div>
+      <div class="bar-val">100 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">AI 50 prompts ⬆️ <sup><a href="#ref10">[10]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill ai" style="width:1.3%;min-width:60px">~14 gal</div></div>
+      <div class="bar-val" style="color:var(--ai)">~14 gal ⬆️</div>
+    </div>
+  </div>
+
+  <div class="droplet-section reveal">
+    <div class="sec-tag">Each Droplet = 100 Gallons Per Day</div>
+    <h2 class="sec-title" style="margin-bottom:8px;">See the difference at a glance</h2>
+    <p style="color:var(--text3);font-size:15px;margin-bottom:4px;">Filled = water consumed. Transparent = water saved.</p>
+    <div class="droplet-row">
+      <div class="droplet-col">
+        <div class="droplet-label ol">Omnivore — 1,100 gal/day</div>
+        <div class="droplet-grid" id="omniDrops"></div>
+        <div class="droplet-caption">11 of 11 droplets filled</div>
+      </div>
+      <div class="droplet-col">
+        <div class="droplet-label vl">Vegan — ~500 gal/day</div>
+        <div class="droplet-grid" id="veganDrops"></div>
+        <div class="droplet-caption">5 of 11 filled — <strong style="color:var(--vegan)">6 saved!</strong></div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ═════════════════════════ AI GROWTH ═════════════════════════ -->
+<section class="section" id="aigrowth">
+<div class="wrap">
+  <div class="sec-tag reveal">03 — AI Water Growth: The Scariest Projections</div>
+  <h2 class="sec-title reveal">Giving AI every benefit of the doubt</h2>
+  <p class="sec-body reveal">
+    AI water usage is growing fast. Below are the most alarming projections from credible institutions — 
+    each linked to its source. We use the highest figure at every tier.
+  </p>
+
+  <div class="reveal" style="margin-bottom:60px;">
+    <div class="tl-row">
+      <div class="tl-year">2021</div>
+      <div class="tl-content">
+        <div class="tl-num">163.7 billion gallons — all U.S. data centers</div>
+        <div class="tl-desc">Source: <a href="https://www.eesi.org/articles/view/data-centers-and-water-consumption" target="_blank">EESI</a> <sup><a href="#ref17">[17]</a></sup>. Pre-ChatGPT. Includes all cloud, streaming, email — not just AI.</div>
+        <div class="tl-bar"><div class="tl-bar-fill" style="width:9.6%"></div></div>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-year">2023</div>
+      <div class="tl-content">
+        <div class="tl-num">211B gal indirect + 17B gal direct AI</div>
+        <div class="tl-desc">Federal report via <a href="https://www.eesi.org/articles/view/data-centers-and-water-consumption" target="_blank">EESI</a> <sup><a href="#ref17">[17]</a></sup>; direct AI estimate via <a href="https://www.issa.com/industry-news/ai-data-center-water-consumption-is-creating-an-unprecedented-crisis-in-the-united-states/" target="_blank">ISSA/Waterless Co.</a> <sup><a href="#ref18">[18]</a></sup></div>
+        <div class="tl-bar"><div class="tl-bar-fill" style="width:13.4%"></div></div>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-year">2028</div>
+      <div class="tl-content">
+        <div class="tl-num">720 billion gallons ⬆️ — AI cooling alone (projected)</div>
+        <div class="tl-desc">Source: <a href="https://www.foodandwaterwatch.org/2025/04/09/artificial-intelligence-water-climate/" target="_blank">Food & Water Watch</a> <sup><a href="#ref15">[15]</a></sup>. ISSA projects 68B direct-only. <sup><a href="#ref18">[18]</a></sup> We use the higher number.</div>
+        <div class="tl-bar"><div class="tl-bar-fill" style="width:42.4%"></div></div>
+      </div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-year">2027–30</div>
+      <div class="tl-content">
+        <div class="tl-num">~1.7 trillion gallons ⬆️⬆️ — worst-case projection</div>
+        <div class="tl-desc">Source: <a href="https://www.fastcompany.com/91454609/ais-future-runs-on-water" target="_blank">Fast Company</a> <sup><a href="#ref16">[16]</a></sup>. Also: <a href="https://www.brookings.edu/articles/ai-data-centers-and-water/" target="_blank">Brookings</a> projects 870% cooling increase <sup><a href="#ref19">[19]</a></sup>; <a href="https://www.msci.com/research-and-insights/blog-post/when-ai-meets-water-scarcity-data-centers-in-a-thirsty-world" target="_blank">IEA via MSCI</a> estimates 1.2T liters globally by 2030 <sup><a href="#ref20">[20]</a></sup>.</div>
+        <div class="tl-bar"><div class="tl-bar-fill" style="width:100%"></div></div>
+      </div>
+    </div>
+    <div class="tl-row" style="border-bottom:none;">
+      <div class="tl-year" style="color:var(--red);">2050</div>
+      <div class="tl-content">
+        <div class="tl-num" style="color:var(--red);">~3.5 trillion gallons ⬆️⬆️⬆️ — unmitigated nightmare</div>
+        <div class="tl-desc">Peer-reviewed: <a href="https://www.sciencedirect.com/science/article/pii/S0959652625018785" target="_blank">ScienceDirect scenario forecast</a> <sup><a href="#ref21">[21]</a></sup> projects 7× increase by mid-century without mitigation. We apply this to the U.S. share generously.</div>
+        <div class="tl-bar"><div class="tl-bar-fill" style="width:100%;background:linear-gradient(90deg,var(--ai-dark),var(--red))"></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ═════════════════════════ NATIONAL SHOWDOWN ═════════════════════════ -->
+<section class="section" id="national">
+<div class="wrap">
+  <div class="sec-tag reveal">04 — The National Showdown</div>
+  <h2 class="sec-title reveal">335 million Americans going vegan<br>vs. the entire AI industry</h2>
+  <p class="sec-body reveal">
+    Apples-to-apples comparison using the MOST generous AI projections and the MOST conservative vegan savings. <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a><a href="#ref15">[15]</a><a href="#ref16">[16]</a></sup>
+  </p>
+
+  <div class="national-grid reveal">
+    <div class="national-card left">
+      <div class="nc-tag">Water Saved — National Vegan Shift ⬇️</div>
+      <div class="nc-big">73.4 T</div>
+      <div class="nc-unit">trillion gallons / year</div>
+      <div class="nc-detail">
+        335M × 600 gal/day savings × 365 = <strong style="color:var(--vegan)">73.4 trillion gallons</strong>/year. 
+        Based on conservative 45% reduction <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a><a href="#ref7">[7]</a></sup>. 
+        Higher estimates (55%) would yield ~90T. <sup><a href="#ref8">[8]</a></sup>
+      </div>
+    </div>
+    <div class="vs-badge">vs</div>
+    <div class="national-card right">
+      <div class="nc-tag">ALL U.S. AI + Data Centers (2030 Worst Case ⬆️⬆️)</div>
+      <div class="nc-big">1.7 T</div>
+      <div class="nc-unit">trillion gallons / year</div>
+      <div class="nc-detail">
+        Most aggressive projection. <sup><a href="#ref15">[15]</a><a href="#ref16">[16]</a></sup> 
+        Current actual is ~0.16T <sup><a href="#ref17">[17]</a></sup>. 
+        This figure is <strong style="color:var(--ai);">10× current levels</strong>.
+      </div>
+    </div>
+  </div>
+
+  <div class="callout reveal">
+    <div class="callout-num">43×</div>
+    <div class="callout-txt">
+      Even using the <strong>most inflated worst-case AI projections</strong> and <strong>most conservative vegan savings</strong>, 
+      a national plant-based shift saves <strong>43 times</strong> more water.
+    </div>
+    <div class="callout-sub">
+      73.4T gal (conservative vegan savings) ÷ 1.7T gal (worst-case AI 2030) = 43×
+    </div>
+  </div>
+
+  <div class="bar-section reveal">
+    <div class="bar-title">National Annual Water — Trillions of Gallons</div>
+    <div class="bar-row">
+      <div class="bar-label">U.S. Omnivore Food <sup><a href="#ref1">[1]</a><a href="#ref2">[2]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill omni" style="width:100%">134.5T gal</div></div>
+      <div class="bar-val">134.5 T gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">U.S. Vegan Food ⬇️ <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill vegan" style="width:45.5%">61.2T gal</div></div>
+      <div class="bar-val">61.2 T gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">WATER SAVED</div>
+      <div class="bar-track"><div class="bar-fill" style="width:54.6%;background:linear-gradient(90deg,var(--vegan-dark),var(--gold))">73.4T saved</div></div>
+      <div class="bar-val" style="color:var(--gold);font-weight:700">73.4 T gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">AI (current 2023) <sup><a href="#ref17">[17]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill ai" style="width:0.17%;min-width:60px">0.23T</div></div>
+      <div class="bar-val">0.23 T gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">AI (2028 ⬆️) <sup><a href="#ref15">[15]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill ai" style="width:0.5%;min-width:60px">0.72T</div></div>
+      <div class="bar-val" style="color:var(--ai)">0.72 T ⬆️</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">AI (2030 worst ⬆️⬆️) <sup><a href="#ref16">[16]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill ai" style="width:1.26%;min-width:70px">1.7T</div></div>
+      <div class="bar-val" style="color:var(--ai);font-weight:700">1.7 T ⬆️⬆️</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label" style="color:var(--red)">AI (2050 ⬆️⬆️⬆️) <sup><a href="#ref21">[21]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill" style="width:2.6%;min-width:70px;background:linear-gradient(90deg,var(--ai-dark),var(--red))">3.5T</div></div>
+      <div class="bar-val" style="color:var(--red);font-weight:700">3.5 T ⬆️⬆️⬆️</div>
+    </div>
+  </div>
+
+  <!-- Data table with ratios -->
+  <div class="data-table-wrap reveal">
+    <table class="data-table">
+      <thead>
+        <tr><th>Metric</th><th>🥩 Omnivore</th><th>🌱 Vegan ⬇️</th><th>🤖 AI ⬆️</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mn">Daily per person (food)</td>
+          <td class="ov">~1,100 gal <sup><a href="#ref1">[1]</a></sup></td>
+          <td class="vv">~500 gal <sup><a href="#ref5">[5]</a><a href="#ref6">[6]</a></sup></td>
+          <td class="av">~7–14 gal <sup><a href="#ref10">[10]</a></sup></td>
+        </tr>
+        <tr>
+          <td class="mn">Annual per person</td>
+          <td class="ov">~401,500 gal</td>
+          <td class="vv">~182,500 gal</td>
+          <td class="av">~2,555–5,110 gal ⬆️</td>
+        </tr>
+        <tr>
+          <td class="mn">Per-person savings vs omnivore</td>
+          <td class="ov">Baseline</td>
+          <td class="vv">~219,000 gal saved</td>
+          <td class="av">N/A</td>
+        </tr>
+        <tr>
+          <td class="mn">National annual total (335M)</td>
+          <td class="ov">134.5T gal</td>
+          <td class="vv">61.2T gal</td>
+          <td class="av">1.7T gal ⬆️⬆️ <sup><a href="#ref16">[16]</a></sup></td>
+        </tr>
+        <tr>
+          <td class="mn">National savings vs omnivore</td>
+          <td class="ov">—</td>
+          <td class="vv" style="font-size:17px">73.4 T gal</td>
+          <td class="av">—</td>
+        </tr>
+        <tr>
+          <td class="mn">Ratio: vegan savings ÷ AI total</td>
+          <td colspan="3" style="text-align:center;font-weight:700;font-size:15px">
+            <span style="color:var(--gold)">Current: 319× · 2028: 102× · 2030 worst: 43× · 2050 nightmare: 21×</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</section>
+
+<!-- ═════════════════════════ FOOD BREAKDOWN ═════════════════════════ -->
+<section class="section" id="foods">
+<div class="wrap">
+  <div class="sec-tag reveal">05 — Why Meat Is So Water-Intensive</div>
+  <h2 class="sec-title reveal">Water per pound of food</h2>
+  <p class="sec-body reveal">
+    98% of livestock water goes to growing feed. <sup><a href="#ref2">[2]</a></sup> Per gram of protein, beef needs 6× more water than pulses. <sup><a href="#ref4">[4]</a></sup>
+  </p>
+  <div class="bar-section reveal">
+    <div class="bar-row">
+      <div class="bar-label">Beef <sup><a href="#ref2">[2]</a><a href="#ref3">[3]</a><a href="#ref4">[4]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill omni" style="width:100%">1,800 gal/lb</div></div>
+      <div class="bar-val" style="color:var(--omni)">1,800 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Pork <sup><a href="#ref8">[8]</a><a href="#ref4">[4]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill omni" style="width:32%">578 gal/lb</div></div>
+      <div class="bar-val" style="color:var(--omni)">578 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Chicken <sup><a href="#ref8">[8]</a><a href="#ref4">[4]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill omni" style="width:26%">468 gal/lb</div></div>
+      <div class="bar-val" style="color:var(--omni)">468 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Tofu <sup><a href="#ref2">[2]</a><a href="#ref8">[8]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill vegan" style="width:16.8%">302 gal/lb</div></div>
+      <div class="bar-val" style="color:var(--vegan)">302 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Lentils <sup><a href="#ref4">[4]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill vegan" style="width:10%">~180 gal/lb</div></div>
+      <div class="bar-val" style="color:var(--vegan)">~180 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Grains <sup><a href="#ref4">[4]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill vegan" style="width:6.7%;min-width:70px">~120 gal/lb</div></div>
+      <div class="bar-val" style="color:var(--vegan)">~120 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Vegetables <sup><a href="#ref8">[8]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill vegan" style="width:2.2%;min-width:60px">~40 gal/lb</div></div>
+      <div class="bar-val" style="color:var(--vegan)">~40 gal</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label" style="color:var(--ai)">1 AI prompt ⬆️ <sup><a href="#ref10">[10]</a></sup></div>
+      <div class="bar-track"><div class="bar-fill ai" style="width:0.8%;min-width:70px">~0.14 gal</div></div>
+      <div class="bar-val" style="color:var(--ai)">~0.14 gal</div>
     </div>
   </div>
 </div>
